@@ -43,7 +43,7 @@ Public Class Form1
             Dim filePath As String = "numbers.txt"
 
             If Not File.Exists(filePath) Then
-                MessageBox.Show("File not found. Please add numbers first.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                MessageBox.Show("File not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
                 Exit Sub
             End If
 

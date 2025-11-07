@@ -33,9 +33,9 @@ Partial Class Form1
         '
         'ButtonWrite
         '
-        Me.ButtonWrite.Location = New System.Drawing.Point(248, 286)
+        Me.ButtonWrite.Location = New System.Drawing.Point(259, 286)
         Me.ButtonWrite.Name = "ButtonWrite"
-        Me.ButtonWrite.Size = New System.Drawing.Size(55, 23)
+        Me.ButtonWrite.Size = New System.Drawing.Size(46, 23)
         Me.ButtonWrite.TabIndex = 0
         Me.ButtonWrite.Text = "Write"
         Me.ButtonWrite.UseVisualStyleBackColor = True
@@ -51,9 +51,9 @@ Partial Class Form1
         '
         'ButtonRead
         '
-        Me.ButtonRead.Location = New System.Drawing.Point(309, 286)
+        Me.ButtonRead.Location = New System.Drawing.Point(320, 286)
         Me.ButtonRead.Name = "ButtonRead"
-        Me.ButtonRead.Size = New System.Drawing.Size(61, 23)
+        Me.ButtonRead.Size = New System.Drawing.Size(50, 23)
         Me.ButtonRead.TabIndex = 2
         Me.ButtonRead.Text = "Read"
         Me.ButtonRead.UseVisualStyleBackColor = True
@@ -69,7 +69,7 @@ Partial Class Form1
         '
         'ButtonSort
         '
-        Me.ButtonSort.Location = New System.Drawing.Point(377, 286)
+        Me.ButtonSort.Location = New System.Drawing.Point(376, 286)
         Me.ButtonSort.Name = "ButtonSort"
         Me.ButtonSort.Size = New System.Drawing.Size(59, 23)
         Me.ButtonSort.TabIndex = 5
@@ -78,6 +78,7 @@ Partial Class Form1
         '
         'NumericUpDown1
         '
+        Me.NumericUpDown1.BackColor = System.Drawing.SystemColors.Info
         Me.NumericUpDown1.Location = New System.Drawing.Point(329, 36)
         Me.NumericUpDown1.Name = "NumericUpDown1"
         Me.NumericUpDown1.Size = New System.Drawing.Size(123, 20)
