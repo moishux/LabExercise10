@@ -23,75 +23,76 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.ButtonWrite = New System.Windows.Forms.Button()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.ButtonReadPerLine = New System.Windows.Forms.Button()
-        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
+        Me.ListBoxNumbers = New System.Windows.Forms.ListBox()
+        Me.ButtonRead = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.ButtonSort = New System.Windows.Forms.Button()
+        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ButtonWrite
         '
-        Me.ButtonWrite.Location = New System.Drawing.Point(475, 128)
+        Me.ButtonWrite.Location = New System.Drawing.Point(248, 286)
         Me.ButtonWrite.Name = "ButtonWrite"
-        Me.ButtonWrite.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonWrite.Size = New System.Drawing.Size(55, 23)
         Me.ButtonWrite.TabIndex = 0
         Me.ButtonWrite.Text = "Write"
         Me.ButtonWrite.UseVisualStyleBackColor = True
         '
-        'ListBox1
+        'ListBoxNumbers
         '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(332, 174)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(312, 212)
-        Me.ListBox1.TabIndex = 1
+        Me.ListBoxNumbers.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.ListBoxNumbers.FormattingEnabled = True
+        Me.ListBoxNumbers.Location = New System.Drawing.Point(244, 62)
+        Me.ListBoxNumbers.Name = "ListBoxNumbers"
+        Me.ListBoxNumbers.Size = New System.Drawing.Size(208, 212)
+        Me.ListBoxNumbers.TabIndex = 1
         '
-        'ButtonReadPerLine
+        'ButtonRead
         '
-        Me.ButtonReadPerLine.Location = New System.Drawing.Point(587, 128)
-        Me.ButtonReadPerLine.Name = "ButtonReadPerLine"
-        Me.ButtonReadPerLine.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonReadPerLine.TabIndex = 2
-        Me.ButtonReadPerLine.Text = "Read"
-        Me.ButtonReadPerLine.UseVisualStyleBackColor = True
-        '
-        'NumericUpDown1
-        '
-        Me.NumericUpDown1.Location = New System.Drawing.Point(313, 131)
-        Me.NumericUpDown1.Name = "NumericUpDown1"
-        Me.NumericUpDown1.Size = New System.Drawing.Size(120, 20)
-        Me.NumericUpDown1.TabIndex = 3
+        Me.ButtonRead.Location = New System.Drawing.Point(309, 286)
+        Me.ButtonRead.Name = "ButtonRead"
+        Me.ButtonRead.Size = New System.Drawing.Size(61, 23)
+        Me.ButtonRead.TabIndex = 2
+        Me.ButtonRead.Text = "Read"
+        Me.ButtonRead.UseVisualStyleBackColor = True
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(225, 133)
+        Me.Label1.Location = New System.Drawing.Point(241, 38)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(82, 13)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Enter a number:"
         '
-        'Button1
+        'ButtonSort
         '
-        Me.Button1.Location = New System.Drawing.Point(690, 128)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Sort"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.ButtonSort.Location = New System.Drawing.Point(377, 286)
+        Me.ButtonSort.Name = "ButtonSort"
+        Me.ButtonSort.Size = New System.Drawing.Size(59, 23)
+        Me.ButtonSort.TabIndex = 5
+        Me.ButtonSort.Text = "Sort"
+        Me.ButtonSort.UseVisualStyleBackColor = True
+        '
+        'NumericUpDown1
+        '
+        Me.NumericUpDown1.Location = New System.Drawing.Point(329, 36)
+        Me.NumericUpDown1.Name = "NumericUpDown1"
+        Me.NumericUpDown1.Size = New System.Drawing.Size(123, 20)
+        Me.NumericUpDown1.TabIndex = 6
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.NumericUpDown1)
-        Me.Controls.Add(Me.ButtonReadPerLine)
-        Me.Controls.Add(Me.ListBox1)
+        Me.Controls.Add(Me.ButtonSort)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.ButtonRead)
+        Me.Controls.Add(Me.ListBoxNumbers)
         Me.Controls.Add(Me.ButtonWrite)
         Me.Name = "Form1"
         Me.Text = "Form1"
@@ -102,9 +103,9 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents ButtonWrite As Button
-    Friend WithEvents ListBox1 As ListBox
-    Friend WithEvents ButtonReadPerLine As Button
-    Friend WithEvents NumericUpDown1 As NumericUpDown
+    Friend WithEvents ListBoxNumbers As ListBox
+    Friend WithEvents ButtonRead As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents ButtonSort As Button
+    Friend WithEvents NumericUpDown1 As NumericUpDown
 End Class
